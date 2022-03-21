@@ -13,6 +13,11 @@
 		173B1D7E27E8A331004AD301 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173B1D7C27E8A331004AD301 /* Main.storyboard */; };
 		173B1D8027E8A333004AD301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 173B1D7F27E8A333004AD301 /* Assets.xcassets */; };
 		173B1D8327E8A333004AD301 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173B1D8127E8A333004AD301 /* LaunchScreen.storyboard */; };
+		173B1D8F27E8A454004AD301 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 173B1D8A27E8A454004AD301 /* Icon.png */; };
+		173B1D9027E8A454004AD301 /* empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 173B1D8B27E8A454004AD301 /* empty.png */; };
+		173B1D9127E8A454004AD301 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 173B1D8C27E8A454004AD301 /* board.png */; };
+		173B1D9227E8A454004AD301 /* O.png in Resources */ = {isa = PBXBuildFile; fileRef = 173B1D8D27E8A454004AD301 /* O.png */; };
+		173B1D9327E8A454004AD301 /* X.png in Resources */ = {isa = PBXBuildFile; fileRef = 173B1D8E27E8A454004AD301 /* X.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		173B1D7F27E8A333004AD301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		173B1D8227E8A333004AD301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		173B1D8427E8A333004AD301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		173B1D8A27E8A454004AD301 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		173B1D8B27E8A454004AD301 /* empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = empty.png; sourceTree = "<group>"; };
+		173B1D8C27E8A454004AD301 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		173B1D8D27E8A454004AD301 /* O.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = O.png; sourceTree = "<group>"; };
+		173B1D8E27E8A454004AD301 /* X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				173B1D7F27E8A333004AD301 /* Assets.xcassets */,
 				173B1D8127E8A333004AD301 /* LaunchScreen.storyboard */,
 				173B1D8427E8A333004AD301 /* Info.plist */,
+				173B1D8C27E8A454004AD301 /* board.png */,
+				173B1D8B27E8A454004AD301 /* empty.png */,
+				173B1D8A27E8A454004AD301 /* Icon.png */,
+				173B1D8D27E8A454004AD301 /* O.png */,
+				173B1D8E27E8A454004AD301 /* X.png */,
 			);
 			path = TicTacToe;
 			sourceTree = "<group>";
@@ -125,8 +140,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				173B1D9327E8A454004AD301 /* X.png in Resources */,
+				173B1D8F27E8A454004AD301 /* Icon.png in Resources */,
 				173B1D8327E8A333004AD301 /* LaunchScreen.storyboard in Resources */,
+				173B1D9127E8A454004AD301 /* board.png in Resources */,
+				173B1D9027E8A454004AD301 /* empty.png in Resources */,
 				173B1D8027E8A333004AD301 /* Assets.xcassets in Resources */,
+				173B1D9227E8A454004AD301 /* O.png in Resources */,
 				173B1D7E27E8A331004AD301 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
